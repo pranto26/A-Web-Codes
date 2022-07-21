@@ -1,0 +1,9 @@
+<html>
+    <body>
+        @include('includes.dashbar')
+        <div>
+        @yield('content')
+        </div>
+        @include('includes.footer')
+    </body>
+</html>
